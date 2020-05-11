@@ -10,6 +10,7 @@ class App extends React.Component{
    this.state = {name:"who"};
  }
 
+ 
 
   render(){
     return(
@@ -28,8 +29,8 @@ class App extends React.Component{
         </a>
     <h1>Hello, {this.state.name} !</h1>
        <div className="btn">
-        <button >Michael</button>
-        <button >Elywin</button>
+        <button onClick={()=> {}} >Michael</button>
+        <button onClick={()=> {}}>Elywin</button>
         </div>
       </header>
     </div>
