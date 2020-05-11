@@ -9,8 +9,10 @@ class App extends React.Component{
    super(props);
    this.state = {name:"who"};
  }
-
- 
+//method to update state
+ handleClick(name){
+    this.setState({name:name});
+ }
 
   render(){
     return(
