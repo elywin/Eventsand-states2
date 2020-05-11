@@ -19,8 +19,7 @@ class App extends React.Component{
       <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <code>Change value when button is clicked</code>         </p>
+        <p> <code>Change value when button is clicked</code>  </p>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -31,8 +30,9 @@ class App extends React.Component{
         </a>
     <h1>Hello, {this.state.name} !</h1>
        <div className="btn">
-        <button onClick={()=> {}} >Michael</button>
-        <button onClick={()=> {}}>Elywin</button>
+         {/* call method when button is clicked to update state */}
+        <button onClick={()=> {this.handleClick('Michael')}} >Michael</button>
+        <button onClick={()=> {this.handleClick('Elywin')}}>Elywin</button>
         </div>
       </header>
     </div>
