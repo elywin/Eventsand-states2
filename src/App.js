@@ -4,7 +4,11 @@ import './App.css';
 
 
 class App extends React.Component{
- 
+ //create state
+ constructor(props){
+   super(props);
+   this.state = {name:"who"};
+ }
   render(){
     return(
       <div className="App">
