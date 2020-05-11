@@ -9,6 +9,8 @@ class App extends React.Component{
    super(props);
    this.state = {name:"who"};
  }
+
+
   render(){
     return(
       <div className="App">
@@ -24,6 +26,7 @@ class App extends React.Component{
         >
           Learn React
         </a>
+    <h1>Hello, {this.state.name} !</h1>
        <div className="btn">
         <button >Michael</button>
         <button >Elywin</button>
